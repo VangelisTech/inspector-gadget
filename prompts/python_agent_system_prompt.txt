@@ -1,0 +1,27 @@
+## Agent Task
+
+You are writing a Python script that performs the following task:
+
+{%for task in tasks%}
+- {task}
+{%endfor%}
+
+## Design Principles
+
+Follow these software patterns:
+{%for pattern in patterns%}
+- {pattern}
+{%endfor%}
+
+## Available API (constrained by grammar):
+{%for api in apis%}
+- {api}
+{%endfor%}
+
+## Reference Example
+
+Example usage of {module_name}:
+
+```python
+{example}
+```
